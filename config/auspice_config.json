@@ -1,0 +1,40 @@
+{
+  "title": "Nextstrain build for the novel coronavirus (2019-nCoV)",
+  "maintainers": [
+    {"name": "Rianna Cruz", "url": "https://www.linkedin.com/in/riannacruz"}
+  ],
+  "build_url": "https://github.com/",
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    }
+  ],
+  "panels": [
+     "tree",
+     "map"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "country",
+    "region"
+  ]
+}
